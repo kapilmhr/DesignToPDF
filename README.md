@@ -72,7 +72,8 @@ must be greater than 100
 ``` java
 .setHeightnWidth(height, width);
 ```
-## Generate PDF from layout that is not visible to user (strictly, visiblity should be set to false)
+## Generate PDF from layout that is not visible to user
+#### (strictly, visiblity should be set to false)
 ``` java
 DesignPdf.with(MainActivity.this)
                       .addView(R.layout.test_layout)
